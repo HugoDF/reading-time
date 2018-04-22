@@ -1,6 +1,6 @@
 {
   "name": "@hugodf/reading-time",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Calculate the amount of time a string would take to read.",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
@@ -15,7 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/HugoDF/reading-time.git"
   },
-  "keywords": ["words", "reading", "time"],
+  "keywords": [
+    "words",
+    "reading",
+    "time"
+  ],
   "author": "Hugo Di Francesco (https://github.com/HugoDF)",
   "license": "MIT",
   "bugs": {
@@ -32,11 +36,20 @@
     "word-regex": "^0.1.2"
   },
   "jest": {
-    "roots": ["<rootDir>/src"],
+    "roots": [
+      "<rootDir>/src"
+    ],
     "transform": {
       "^.+\\.ts?$": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.ts?$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }
