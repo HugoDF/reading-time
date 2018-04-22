@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`readingTime should respond correctly for >200 words english-character text if no passed readingTimeFunction 1`] = `1`;
+
+exports[`readingTime should respond correctly for >400 words english-character text if no passed readingTimeFunction 1`] = `2`;
+
+exports[`readingTime should respond correctly for >600 words english-character text if no passed readingTimeFunction 1`] = `3`;
+
+exports[`readingTime should respond correctly for 199 word english-character text if no passed readingTimeFunction 1`] = `1`;
+
+exports[`readingTime should respond correctly for 200 word english-character text if no passed readingTimeFunction 1`] = `1`;
+
+exports[`readingTime should respond correctly for 399 word english-character text if no passed readingTimeFunction 1`] = `2`;
+
+exports[`readingTime should respond correctly for 400 word english-character text if no passed readingTimeFunction 1`] = `2`;
+
+exports[`readingTime should respond correctly for 599 word english-character text if no passed readingTimeFunction 1`] = `3`;
+
+exports[`readingTime should respond correctly for 600 word english-character text if no passed readingTimeFunction 1`] = `3`;
+
+exports[`readingTime should respond correctly for short english-character text if no passed readingTimeFunction 1`] = `1`;
